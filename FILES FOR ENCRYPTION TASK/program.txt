@@ -1,0 +1,9 @@
+LDB r1, 42
+LDB r2, 18
+LDB r3, 0F
+ADD r4, r1, r2
+SUB r5, r1, r2
+XOR r6, r4, r5
+INC r7, r6
+AND r8, r7, r3
+STB r8
